@@ -23,7 +23,7 @@ And it covers the fundamentals of MySQL and how to use PHP to efficiently and se
 * Creating, reading, updating, and deleting database records with PHP
 * Validating data
 * Preventing SQL injection
-* Deploy on Heroku
+* Deploy on Heroku (Currently, the filesystem on Heroku is not suitable for persistent storage of data like image.)
 
 ## Skills covered
 
