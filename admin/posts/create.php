@@ -127,7 +127,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['userfile']) && $_FILES
 
         </div>
         <!-- // Page Wrapper -->
-
+    <!-- // Page Wrapper -->    
 
 
         <!-- JQuery -->
