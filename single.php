@@ -64,7 +64,7 @@ $posts = selectAll('posts', ['published'=> 1]);
 
           <?php foreach ($posts as $post):?>
           <div class="post clearfix">
-          <img src="<?php echo UPLOAD_URL . $post['image'];?>" alt="">
+          <img src="<?php echo BASE_URL . '/assets/images/' . $post['image'];?>" alt="">
           <a href="single.php?id=<?php echo $post['id']?>" class="title">
             <h4><?php echo $post['title'];?></h4>
           </a>
