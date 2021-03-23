@@ -2,7 +2,6 @@
 <?php include(ROOT_PATH . "/app/controllers/posts.php"); ?>
 
 <!DOCTYPE html>
-<html lang="en">
 <?php
 require((ROOT_PATH . "/vendor/autoload.php"));
 // this will simply read AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY from env vars
@@ -12,6 +11,8 @@ $s3 = new Aws\S3\S3Client([
 ]);
 $bucket = getenv('S3_BUCKET')?: die('No "S3_BUCKET" config var in found in env!');
 ?>
+<html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
